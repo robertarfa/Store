@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = store
-build_property.ProjectDir = D:\OneDrive\CURSOS\PROJETOS\Baltaio\5-Advanced .Net Developer\2-RefatorandoParaTestesDeUnidade\7182\Store\
+build_property.ProjectDir = d:\OneDrive\CURSOS\PROJETOS\Baltaio\5-Advanced .Net Developer\2-RefatorandoParaTestesDeUnidade\7182\Store\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

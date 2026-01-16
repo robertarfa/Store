@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qYg91fIKXas=",
+  "dgSpecHash": "ZNdzWbbyTI4=",
   "success": true,
   "projectFilePath": "D:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\store.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rober\\.nuget\\packages\\dapper\\1.60.9\\dapper.1.60.9.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\rober\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

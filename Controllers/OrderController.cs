@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Dapper;
 using Microsoft.AspNetCore.Mvc;
-using Store.Models;
+using Store.Domain.Entities;
 
 namespace Store.Controllers
 {
