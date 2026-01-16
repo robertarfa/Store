@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Flunt.Validations;
 
 namespace Store.Domain.Entities
 {
@@ -10,6 +7,13 @@ namespace Store.Domain.Entities
 
         public OrderItem(Product product, int quantity)
         {
+            AddNotifications(
+                new Contract()
+                    .Requires()
+                    .IsNotNull(product, "Product", "Produto inválido")
+                    .IsLowerOrEqualsThan(quantity, 0, "Quantity", "A quantidade deve ser maior que zero")
+            );
+
             Product = product;
             Price = product != null ? product.Price : 0;
             Quantity = quantity;

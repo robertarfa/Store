@@ -1,3 +1,5 @@
+using System;
+
 namespace Store.Domain.Entities
 {
   public class Discount : Entity
