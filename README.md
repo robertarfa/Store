@@ -5,3 +5,4 @@
   - Implementar design by contract utilizando FLUNT.
 - Adicionar testes
   - dotnet new mstest
+  - adicionar referência do projeto principal (dotnet add reference ../Store.Domain/Store.Domain.csproj)
