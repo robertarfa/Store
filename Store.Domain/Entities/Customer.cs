@@ -1,3 +1,5 @@
+using Flunt.Validations;
+
 namespace Store.Domain.Entities;
 
 public class Customer : Entity
@@ -9,6 +11,13 @@ public class Customer : Entity
     {
         Name = name;
         Email = email;
+
+        AddNotifications(
+           new Contract()
+           .Requires()
+           .IsNotNull(name, "CustomerName", "Nome do cliente inválido")
+           .IsNotNull(email, "CustomerEmail", "Email do Cliente inválido")
+       );
     }
 
     public string Name { get; private set; }
