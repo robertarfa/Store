@@ -31,6 +31,33 @@ namespace Store.Domain.Entities
             var item = new OrderItem(product, quantity);
             if (item.Valid)
                 Items.Add(item);
+            else
+                AddNotifications(item);
+        }
+
+        public decimal Total()
+        {
+            decimal total = 0;
+            foreach (var item in Items)
+            {
+                total += item.Total();
+            }
+
+            total += DeliveryFee;
+            total -= Discount != null ? Discount.Value() : 0;
+
+            return total;
+        }
+
+        public void Pay(decimal amount)
+        {
+            if (amount == Total())
+                this.Status = EOrderStatus.WaitingDelivery;
+        }
+
+        public void Cancel()
+        {
+            Status = EOrderStatus.Cancelled;
         }
     }
 }

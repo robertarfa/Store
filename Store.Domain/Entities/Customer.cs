@@ -9,15 +9,15 @@ public class Customer : Entity
 
     public Customer(string name, string email)
     {
+        AddNotifications(
+        new Contract()
+        .Requires()
+        .IsNotNull(name, "CustomerName", "Nome do cliente inválido")
+        .IsNotNull(email, "CustomerEmail", "Email do Cliente inválido")
+    );
+
         Name = name;
         Email = email;
-
-        AddNotifications(
-           new Contract()
-           .Requires()
-           .IsNotNull(name, "CustomerName", "Nome do cliente inválido")
-           .IsNotNull(email, "CustomerEmail", "Email do Cliente inválido")
-       );
     }
 
     public string Name { get; private set; }
