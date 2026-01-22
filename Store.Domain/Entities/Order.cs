@@ -17,6 +17,12 @@ namespace Store.Domain.Entities
             DeliveryFee = deliveryFee;
             Discount = discount;
             Items = new List<OrderItem>();
+
+            // Propagate customer notifications (e.g., invalid name/email) up to the order
+            if (Customer == null)
+                AddNotification("Customer", "Cliente inválido");
+            else
+                AddNotifications(Customer);
         }
         public Customer Customer { get; private set; }
         public DateTime Date { get; private set; }

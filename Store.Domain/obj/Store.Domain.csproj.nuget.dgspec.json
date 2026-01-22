@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\Store.Domain\\Store.Domain.csproj": {}
+    "D:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\Store.Domain\\Store.Domain.csproj": {}
   },
   "projects": {
-    "d:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\Store.Domain\\Store.Domain.csproj": {
+    "D:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\Store.Domain\\Store.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\Store.Domain\\Store.Domain.csproj",
+        "projectUniqueName": "D:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\Store.Domain\\Store.Domain.csproj",
         "projectName": "Store.Domain",
-        "projectPath": "d:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\Store.Domain\\Store.Domain.csproj",
+        "projectPath": "D:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\Store.Domain\\Store.Domain.csproj",
         "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "d:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\Store.Domain\\obj\\",
+        "outputPath": "D:\\OneDrive\\CURSOS\\PROJETOS\\Baltaio\\5-Advanced .Net Developer\\2-RefatorandoParaTestesDeUnidade\\7182\\Store\\Store.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

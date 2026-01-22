@@ -1,4 +1,5 @@
 using System;
+using Flunt.Validations;
 
 namespace Store.Domain.Entities
 {
