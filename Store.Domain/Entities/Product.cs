@@ -4,7 +4,7 @@ namespace Store.Domain.Entities
 {
     public class Product : Entity
     {
-        public Product(string title, decimal price)
+        public Product(string title, decimal price, bool active = true)
         {
             AddNotifications(
                 new Contract()
@@ -15,9 +15,7 @@ namespace Store.Domain.Entities
 
             Title = title;
             Price = price;
-            Active = true;
-
-
+            Active = active;
         }
         // public int Id { get; set; }
         public string Title { get; private set; }
