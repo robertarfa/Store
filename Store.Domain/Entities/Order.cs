@@ -18,7 +18,6 @@ namespace Store.Domain.Entities
             Discount = discount;
             Items = new List<OrderItem>();
 
-            // Propagate customer notifications (e.g., invalid name/email) up to the order
             if (Customer == null)
                 AddNotification("Customer", "Cliente inválido");
             else
@@ -64,6 +63,12 @@ namespace Store.Domain.Entities
         public void Cancel()
         {
             Status = EOrderStatus.Cancelled;
+        }
+
+        public void Validate()
+        {
+            if (Items.Count == 0)
+                AddNotification("Items", "Pedido sem itens");
         }
     }
 }
